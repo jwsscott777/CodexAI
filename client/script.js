@@ -76,7 +76,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server
-  const response = await fetch('http://localhost:5455', {
+  const response = await fetch('https://codexai-gj3b.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
